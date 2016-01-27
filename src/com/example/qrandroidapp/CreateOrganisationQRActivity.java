@@ -1,7 +1,5 @@
 package com.example.qrandroidapp;
 
-import com.example.qrandroidapp.R;
-
 import utils.Validator;
 import model.Organisation;
 import android.app.Activity;

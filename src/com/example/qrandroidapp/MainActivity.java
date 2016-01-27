@@ -3,8 +3,6 @@ package com.example.qrandroidapp;
 import model.Organisation;
 import model.User;
 
-import com.dm.zbar.android.scanner.ZBarConstants;
-import com.dm.zbar.android.scanner.ZBarScannerActivity;
 import com.example.qrandroidapp.R;
 
 import adapters.GaleryAdapter;

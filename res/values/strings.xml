@@ -41,7 +41,6 @@
 	<string name="ok">OK</string>
 	<string name="cancel">Cancel</string>
 	<string name="next">Next</string>
-	<string name="login">Login</string>
 	<string name="sending_data">Sending data...</string>
 	<string name="successful_login">You have logged in successfully</string>
 	<string name="login">Login</string>
