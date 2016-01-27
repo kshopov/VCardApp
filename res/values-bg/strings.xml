@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QRAndroidApp</string>
+	<string name="menu_item">Menu Item</string>
+	<string name="qr_image">QR Image</string>
+	<string name="required_hint">required</string>
+	<string name="organisation_name">Организация</string>
+	<string name="organisation_email">Email</string>
+	<string name="organisation_address">Адрес</string>
+	<string name="organisation_web_address">Уеб Страница</string>
+	<string name="organisation_phone">Телефон</string>
+	<string name="organisation_mobile">Мобилен</string>
+	<string name="organisation_fax">Факс</string>
+	<string name="organisation_country">Страна</string>
+	<string name="organisation_city">Град</string>
+	<string name="organisation_branch">Бранш</string>
+	<string name="gps_longtitude">GPS Longtitude:</string>
+	<string name="gps_latitude">GPS Latitude:</string>
+	<string name="generate_qr">Generate QR</string>
+	<string name="email_hint">Email</string>
+	<string name="password_hint">Password </string>
+	<string name="password_again">Password again</string>
+	<string name="create_an_account">CREATE AN ACCOUNT</string>
+
+</resources>

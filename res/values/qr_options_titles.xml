@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="qr_options_titles">
+        <item>Business QR</item>
+        <item>Personal QR</item>
+    </string-array>
+
+</resources>

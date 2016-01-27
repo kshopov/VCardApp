@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.qrandroidapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name="com.example.qrandroidapp.QRApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.example.qrandroidapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.qrandroidapp.MenuActivity" >
+        </activity>
+        <activity android:name="com.example.qrandroidapp.OrganisationDetailsActivity" >
+        </activity>
+        <activity android:name="com.example.qrandroidapp.UserDetailsActivity" >
+        </activity>
+        <activity android:name="com.example.qrandroidapp.SearchResultsActivity" >
+        </activity>
+        <activity android:name="com.example.qrandroidapp.SearchActivity" >
+        </activity>
+        <activity android:name="com.example.qrandroidapp.ViewUsersActivity" >
+        </activity>
+        <activity android:name="com.example.qrandroidapp.ViewOrganisationsActivity" >
+        </activity>
+        <activity android:name="com.example.qrandroidapp.HistoryActivity" >
+        </activity>
+        <activity android:name="com.example.qrandroidapp.CreateUserActivity" >
+        </activity>
+        <activity android:name="com.example.qrandroidapp.ScanQRResultsActivity" >
+        </activity>
+        <activity android:name="com.example.qrandroidapp.OptionsQRActivity" >
+        </activity>
+        <activity android:name="com.example.qrandroidapp.CreateOrganisationQRActivity" >
+        </activity>
+        <activity android:name="com.example.qrandroidapp.RegisterActivity" >
+        </activity>
+        <activity android:name="com.example.qrandroidapp.SettingsActivity" >
+        </activity>
+        <activity android:name="com.example.qrandroidapp.RegisterOrganisationActivity" >
+        </activity>
+        <activity android:name="com.example.qrandroidapp.RegisterPersonalActivity" >
+        </activity>
+        <activity android:name="com.example.qrandroidapp.LoginActivity" >
+        </activity>
+        <activity android:name="com.example.qrandroidapp.LoginRegisterActivity" >
+        </activity>
+        <activity
+            android:name="com.dm.zbar.android.scanner.ZBarScannerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>

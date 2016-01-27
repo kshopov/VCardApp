@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QRAndroidApp</string>
+	<string name="menu_item">Menu Item</string>
+	<string name="qr_image">QR Image</string>
+	<string name="required_hint">required</string>
+	<string name="organisation_name">Organisation</string>
+	<string name="organisation_email">Organisation email</string>
+	<string name="organisation_address">Organisation address</string>
+	<string name="organisation_web_address">Web page</string>
+	<string name="organisation_phone">Phone</string>
+	<string name="organisation_mobile">Mobile</string>
+	<string name="organisation_fax">Fax</string>
+	<string name="organisation_country">Country</string>
+	<string name="organisation_city">City</string>
+	<string name="organisation_branch">Branch</string>
+	<string name="gps_longtitude">GPS Longtitude:</string>
+	<string name="gps_latitude">GPS Latitude:</string>
+	<string name="generate_qr">Generate QR</string>
+	<string name="email_hint">Email</string>
+	<string name="password_hint">Password </string>
+	<string name="password_again">Password again</string>
+	<string name="create_an_account">CREATE AN ACCOUNT</string>
+	<string name="settings">Settings</string>
+	<string name="password_protection_hint">Set password for this app</string>
+	<string name="settings_title">General Settings</string>
+	<string name="username_hint">Username</string>
+	<string name="successful_registration">Your Registration was successful</string>
+	<string name="register_button">Register</string>
+	<string name="radio_organisation">Organisation</string>
+	<string name="radion_personal">Personal</string>
+	<string name="account_type">What kind of account would you like to register?</string>
+	<string name="firs_name_hint">First name</string>
+	<string name="last_name_hint">Last name</string>
+	<string name="position_hint">Position</string>
+	<string name="business_phone_hint">Business Phone</string>
+	<string name="personal_phone_hint">Personal Phone</string>
+	<string name="facebook_hint">Facebook profile</string>
+	<string name="skype_hint">Skype</string>
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	<string name="next">Next</string>
+	<string name="login">Login</string>
+	<string name="sending_data">Sending data...</string>
+	<string name="successful_login">You have logged in successfully</string>
+	<string name="login">Login</string>
+	<string name="main">Main</string>
+	<string name="save">Save</string>
+	<string name="organisation_image_description">Organisation QR Image</string>
+	<string name="no_organisations">You do not have any organisatios</string>
+	<string name="search">Search</string>
+	<string name="call">Call</string>
+	<string name="open">Open</string>
+	<string name="find_location">Find</string>
+	<string name="successful_qr_save">Your Qr is saved</string>
+
+</resources>

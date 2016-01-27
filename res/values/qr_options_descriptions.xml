@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="qr_options_descriptions">
+        <item>Create business qr code</item>
+        <item>Create your personal qr code</item>
+    </string-array>
+
+</resources>

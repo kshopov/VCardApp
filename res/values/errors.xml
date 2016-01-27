@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="not_valid_email">Please enter a valid email address</string>
+    <string name="password_not_match">Password does not match</string>
+    <string name="empty_field">This field cannot be empty</string>
+    <string name="location_not_available">Location not available</string>
+    <string name="username_exists">This username is already taken</string>
+    <string name="email_exists">This email is already taken</string>
+    <string name="server_error">Server is not responding, please try again later</string>
+    <string name="wrong_user_pass">Wrong username or password</string>
+    <string name="wrong_pass">Wrong password</string>
+    <string name="web_page_not_available">Web Not Provided</string>
+    <string name="phone_not_available">Phone Not Provided</string>
+    <string name="mobile_not_available">Mobile Not Provided</string>
+    <string name="email_not_available">Email Not Provided</string>
+    <string name="gps_not_available">GPS Not Provided</string>
+</resources>

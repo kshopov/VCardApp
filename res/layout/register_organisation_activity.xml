@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center|top" >
+
+            <EditText
+                android:id="@+id/organisation_name"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text"
+                android:hint="@string/organisation_name"
+                android:layout_marginTop="10dp" />
+            
+
+            <EditText
+                android:id="@+id/organisation_email"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text"
+                android:hint="@string/organisation_email"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:id="@+id/organisation_address"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text"
+                android:hint="@string/organisation_address"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:id="@+id/organisation_web_address"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text"
+                android:hint="@string/organisation_web_address"
+                android:inputType="textUri"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:id="@+id/organisation_phone"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text"
+                android:hint="@string/organisation_phone"
+                android:inputType="phone"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:id="@+id/organisation_mobile"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text"
+                android:hint="@string/organisation_mobile"
+                android:inputType="phone"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:id="@+id/organisation_fax"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text"
+                android:hint="@string/organisation_fax"
+                android:inputType="phone"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/organisation_country"
+                android:textColor="@color/top"
+                android:layout_marginTop="10dp" />
+
+            <Spinner
+                android:id="@+id/countries_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:id="@+id/organisation_city"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text"
+                android:hint="@string/organisation_city"
+                android:inputType="text"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/organisation_branch"
+                android:textColor="@color/top"
+                android:layout_marginTop="10dp" />
+
+            <Spinner
+                android:id="@+id/branches_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/gps_longtitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/top"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/gps_latitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/top"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:id="@+id/register_organisation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="registerOrganisation"
+                android:text="@string/register_button"
+                android:layout_marginTop="50dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

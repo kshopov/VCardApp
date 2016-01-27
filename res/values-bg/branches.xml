@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="branches">
+        <item>Счетоводство</item>
+        <item>Правни</item>
+        <item>Пенсионни</item>
+        <item>Застраховки</item>
+        <item>Компютърни</item>
+        <item>Реклама</item>
+        <item>Реклама и печат</item>
+        <item>Проектиране и дизайн</item>
+        <item>Лаборатории</item>
+        <item>Медицински услуги</item>
+        <item>Курсове</item>
+        <item>Учебни центрове</item>
+        <item>Сватбени и парти агенции</item>
+        <item>Изолации</item>
+        <item>Сухо строителство</item>
+        <item>Дограма</item>
+        <item>Щори</item>
+        <item>Врати</item>
+        <item>Ремонтни услуги</item>
+        <item>Авто услуги</item>
+        <item>ВиК</item>
+        <item>Ел. услуги</item>
+        <item>Ремонт на ел. уреди</item>
+        <item>Фото студиа</item>
+        <item>Рамки - Ателиета</item>
+        <item>Шивашки услуги</item>
+        <item>Обущарски - кожарски</item>
+        <item>Мебели</item>
+        <item>Дърводелски</item>
+        <item>Стъкларски</item>
+        <item>Kлючарски</item>
+        <item>Фризьорство</item>
+        <item>Козметика</item>
+        <item>Транспортни</item>
+        <item>Хамалски</item>
+        <item>Химическо чистене и пране</item>
+        <item>Почистване</item>
+        <item>За децата</item>
+        <item>Спортни услуги</item>
+        <item>Туристически услуги</item>
+    </string-array>
+
+</resources>
